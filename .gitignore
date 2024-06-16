@@ -32,3 +32,6 @@ yarn-error.log*
 /frontEnd/node_modules
 /frontEnd/build
 /frontEnd/.env
+
+#Additional Files
+/Terminal commands for project.txt

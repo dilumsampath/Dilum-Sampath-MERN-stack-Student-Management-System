@@ -4,7 +4,9 @@
   "description": "student management system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev" : "nodemon server.js"
+
   },
   "author": "K.G. Dilum Sampath",
   "license": "ISC",
@@ -12,6 +14,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
   }
 }
